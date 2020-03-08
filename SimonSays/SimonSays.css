@@ -1,0 +1,95 @@
+body {
+  font-family: "Orbitron";
+}
+.button{
+	z-index: 2;
+	height: 180px;
+	width: 180px;
+	background: red;
+	border-radius: 50%;
+	opacity: 1;
+	cursor: pointer;
+}
+.button:hover{
+	border: 1px solid white;
+}
+#wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: auto;
+	height:500px;
+	width: 500px;
+}
+#light{
+	height: 10px;
+	width: 10px;
+	background: red;
+	border-radius: 50%;
+}
+#console{
+	margin: auto;
+	height: 400px;
+	width: 400px;
+	background: black;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#green{
+	background: darkgreen;
+}
+#red{
+	background: darkred;
+}
+#yellow{
+	background: goldenrod;
+}
+#blue{
+	background: darkblue;
+}
+.back{
+	z-index: 1;
+	position: absolute;
+	display: flex;
+	height: 200px;
+	width:200px;
+	border-radius: 50%;
+	background: black;
+	justify-content: center;
+	align-items: center;
+}
+#one{
+	top: 0%;
+	left: 0%;
+}
+#two{
+	top: 0%;
+	left: 60%;
+}
+#three{
+	top: 60%;
+	left: 0%;
+}
+#four{
+	top: 60%;
+	left: 60%;
+}
+form{
+	border-radius: 10%;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: wrap;
+	width: 150px;
+}
+input{
+	font-family: "Orbitron";
+}
+span{
+	background: grey;
+}
