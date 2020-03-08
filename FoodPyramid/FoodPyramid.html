@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="assignment-01.css" rel="stylesheet" type="text/css">
+    <script src="assignment-01.js"></script>
+  </head>
+<body> 
+  <h1>Food Pyramid</h1>
+  <form style="float: left;">
+    Date:
+    <input type="date"></input>
+  </form>
+
+  <div id="Pyramid">
+    <div id="one" class="trapezium">
+        <form style="margin-top: 3em;">
+          <input type="button" value="+" onclick="add('val1')"><span id="val1">0</span></input>
+          <input type="button" value="-" onclick="minus('val1')"></input>
+        </form>
+    </div>
+
+    <div id="two" class="trapezium">
+        <form>
+            <input type="button" value="+" onclick="add('val2')"><span id="val2">0</span></input>
+            <input type="button" value="-" onclick="minus('val2')"></input>
+        </form>
+    </div>
+
+    <br>
+    <div id="three" class="trapezium">
+        <form>
+          <input type="button" value="+" onclick="add('val3')"><span id="val3">0</span></input>
+          <input type="button" value="-" onclick="minus('val3')"></input>
+        </form>
+    </div>
+    <br>
+
+    <div id="four" class="trapezium">
+        <form>
+          <input type="button" value="+" onclick="add('val4')"><span id="val4">0</span></input>
+          <input type="button" value="-" onclick="minus('val4')"></input>
+        </form>
+    </div>
+
+    <div id="five" class="trapezium">
+        <form>
+          <input type="button" value="+" onclick="add('val5')"><span id="val5">0</span></input>
+          <input type="button" value="-" onclick="minus('val5')"></input>
+        </form>
+    </div>
+
+    <div id="six" class="trapezium">
+        <form>
+          <input type="button" value="+" onclick="add('val6')"s><span id="val6">0</span></input>
+          <input type="button" value="-" onclick="minus('val6')"></input>
+        </form>
+    </div>
+  </div>
+</body>
+</html>
